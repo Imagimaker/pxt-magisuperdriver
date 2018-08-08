@@ -11,7 +11,7 @@
         "magisuperdriver.ts"
     ],
     "testFiles": [
-        "magi-super-driver-test.ts"
+        "magisuperdrivertest.ts"
     ],
     "yotta": {
         "config": {
