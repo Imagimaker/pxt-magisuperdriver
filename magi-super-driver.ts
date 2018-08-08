@@ -16,11 +16,6 @@
 //% color="#AAc044" icon="\uf29e"
 namespace magiSuperDriver {
 
-    //% block
-    export function helloWorld() {
-
-    }
-
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
     const MODE2 = 0x01

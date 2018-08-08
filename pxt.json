@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "magi-super-driver.ts"
+        "magisuperdriver.ts"
     ],
     "testFiles": [
         "magi-super-driver-test.ts"
