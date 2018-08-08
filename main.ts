@@ -215,7 +215,7 @@ namespace magisuperdriver {
             setPwm(index + 7, 0, value)
         }
         
-        //% blockId=robotbit_stepper_degree block="Stepper |%index|degree %degree"
+        //% blockId=robotbit_stepper_degree block="Stepper|%index|degree %degree"
         //% weight=90
         export function StepperDegree(index: Steppers, degree: number): void {
             if (!initialized) {
@@ -228,13 +228,12 @@ namespace magisuperdriver {
         }
 
 
-        //% blockId=robotbit_stepper_turn block="Stepper |%index|turn %turn"
+        //% blockId=robotbit_stepper_turn block="Stepper|%index|turn %turn"
         //% weight=90
         export function StepperTurn(index: Steppers, turn: Turns): void {
             let degree = turn;
             StepperDegree(index, degree);
-        }
-
+	}
         //% blockId=robotbit_motor_run block="Motor|%index|running with direction|%direction|and speed %speed"
         //% weight=85
         //% speed.min=-1024 speed.max=1024
@@ -243,7 +242,7 @@ namespace magisuperdriver {
             if (!initialized) {
                 initPCA9685()
             }
-            speed = speed * 4; // map 255 to 4096
+            speed = speed * 4; // map 1024 to 4096
             if (speed >= 4096) {
                 speed = 4095
             }
