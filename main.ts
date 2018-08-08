@@ -14,7 +14,7 @@
  * block should be generated for a **exported** function.
  */
 //% color="#AAc044" icon="\uf29e"
-namespace magiSuperDriver {
+namespace magisuperdriver {
 
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
@@ -101,7 +101,7 @@ namespace magiSuperDriver {
     }
     let initialized = false
     let initializedMatrix = false
-    let neoStrip: neopixel.Strip;
+
     let matBuf = pins.createBuffer(17);
     let distanceBuf = 0;
 

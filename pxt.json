@@ -1,5 +1,5 @@
 {
-    "name": "me",
+    "name": "magisuperdriver",
     "version": "18.730.10",
     "description": "magiSuperDriver package for Micro:bit",
     "license": "MIT",
@@ -8,10 +8,10 @@
     },
     "files": [
         "README.md",
-        "magisuperdriver.ts"
+        "main.ts"
     ],
     "testFiles": [
-        "magisuperdrivertest.ts"
+        "test.ts"
     ],
     "yotta": {
         "config": {
