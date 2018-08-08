@@ -1,0 +1,26 @@
+{
+    "name": "me",
+    "version": "18.730.10",
+    "description": "magiSuperDriver package for Micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "magi-super-driver.ts"
+    ],
+    "testFiles": [
+        "magi-super-driver-test.ts"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "public": true
+}
