@@ -1,6 +1,6 @@
 {
-  "superDriver": "Use this file to define custom functions and blocks.\r\nRead more at https://makecode.microbit.org/blocks/custom\r\n\r\nCustom blocks\r\n\r\nFunctions are mapped to blocks using various macros \r\nin comments starting with % (e.g., //% ).\r\nThe most important macro \"block\" specifies that a\r\nblock should be generated for a **exported** function.",
-  "superDriver.Servo": "Servo Execute",
-  "superDriver.Servo|param|degree": "[0-180] degree of servo; eg: 0, 90, 180",
-  "superDriver.Servo|param|index": "Servo Channel; eg: S1"
+  "magiSuperDriver": "Use this file to define custom functions and blocks.\r\nRead more at https://makecode.microbit.org/blocks/custom\r\n\r\nCustom blocks\r\n\r\nFunctions are mapped to blocks using various macros \r\nin comments starting with % (e.g., //% ).\r\nThe most important macro \"block\" specifies that a\r\nblock should be generated for a **exported** function.",
+  "magiSuperDriver.Servo": "Servo Execute",
+  "magiSuperDriver.Servo|param|degree": "[0-180] degree of servo; eg: 0, 90, 180",
+  "magiSuperDriver.Servo|param|index": "Servo Channel; eg: S1"
 }
