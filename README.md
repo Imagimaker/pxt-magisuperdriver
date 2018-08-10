@@ -1,26 +1,28 @@
 
-# Magibit Library for Micro:bit
-版本号: v0.1.2
+#  Magi SuperDriver Library for Micro:bit
+版本号: v0.1
 
-该扩展包为麦极创客专门为Micro:bit开发的语句库。推荐配合麦极创客的Magishield扩展板、Magibit主板和Magibit传感器套装进行使用，以便获得最好的体验。同时该包也支持市面上绝大多数的Micro:bit传感器模块和执行器，用户自行进行pin口连接即可。
+该扩展包为麦极创客专门为超级电机驱动板开发的的语句库。用户可以通过该语句控制直流电机、步进电机和舵机
 
 ## 1. 当前版本支持的模块
 
-- 马达
-- 步进电机
-- 伺服电机
+- 直流电机
+- 步进电机（目前仅支持四项五线的步进电机，比如28BYJ-48
+- 舵机
 
 ## 2. 使用说明
-- 点击高级->添加软件包（add package），粘贴Magibit库的地址，https://github.com/Imagimaker/pxt-magibit
-- 点击右侧“搜索”按钮，单击找到的程序包，稍等片刻后，即可成功添加Magibit的语句库。
-![install](install.gif)
+- 点击高级->添加软件包（add package），粘贴Magibit库的地址，https://github.com/Imagimaker/pxt-magisuperdriver
+- 点击右侧“搜索”按钮，单击找到的程序包，稍等片刻后，即可成功添加Magi SuperDriver的语句库。
+![install](https://github.com/Imagimaker/pxt-magibit/raw/master/install.gif)
 
 ## 3. 备注
 
-- 舵机推荐使用Micro:bit官方的语句进行控制，引脚->伺服机构（pin->servo）。
-- 灯带推荐使用Neopixel进行控制，在Add Package中搜索Neopixel即可添加。
-- 语句库中的摇杆模块的语句，硬件上只支持搭配Magibit摇杆模块进行使用，不支持第三方摇杆模块。如需使用第三方摇杆模块，用户需自行读取pin口数据。
+- Magi SuperDriver驱动板，需要配合至少7.4V直流电源供电。
+- 接插i2C的grove口和Magibit主板进行连接。
+- 该语句库参考了kittenbot的[robotbit](https://github.com/KittenBot/pxt-robotbit)开发，感谢kittenbot!
 
 ## Supported targets
 
-* for PXT/microbit
+```package
+superDriver=github:Imagimaker/pxt-magisuperdriver
+```

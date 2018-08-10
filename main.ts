@@ -13,8 +13,8 @@
  * The most important macro "block" specifies that a
  * block should be generated for a **exported** function.
  */
-//% color="#AAc044" icon="\uf29e" block="Me"
-namespace me {
+//% color="#AAc044" icon="\uf29e" block="SuperDriver"
+namespace superDriver {
 
     //% block
     export function helloWorldmezh() {
