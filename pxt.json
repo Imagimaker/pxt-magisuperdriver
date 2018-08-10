@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/superdriver-strings.json"
+        "_locales/zh/superDriver-strings.json"
     ],
     "testFiles": [
         "test.ts"
