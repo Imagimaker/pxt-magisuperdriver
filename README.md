@@ -19,6 +19,7 @@
 
 - Magi SuperDriver驱动板，需要配合至少7.4V直流电源供电。
 - 接插i2C的grove口和Magibit主板进行连接。
+- 该语句库参考了kittenbot的[robotbit](https://github.com/KittenBot/pxt-robotbit)开发，感谢kittenbot!
 
 ## Supported targets
 
