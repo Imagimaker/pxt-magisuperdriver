@@ -15,6 +15,7 @@
  */
 //% color="#AAc044" icon="\uf135" block="SuperDriver"
 namespace magiSuperDriver {
+
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
     const MODE2 = 0x01
@@ -72,9 +73,9 @@ namespace magiSuperDriver {
     }
 
     export enum Steppers {
-        //% blockId="Step_1" block="Step 1"
+        //% blockId="Step_1" block="Step1"
         Step_1 = 0x1,
-        //% blockId="Step_2" block="Step 2"
+        //% blockId="Step_2" block="Step2"
         Step_2 = 0x2
     }
 
@@ -96,7 +97,9 @@ namespace magiSuperDriver {
     }
     
     export enum Directions {
+       //% blockId="Forward" block="0"
        Forward,
+       //% blockId="Backward" block="1"
        Backward        
     }
     
@@ -238,15 +241,11 @@ namespace magiSuperDriver {
         StepperDegree(index, degree);
     }    
 
-    //% blockId=robotbit_motor_run block="Motor %index|speed %speed"
-    //% weight=85
-    //% speed.min=-255 speed.max=255
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    export function MotorRun(index: Motors, speed: number): void {
+    function _MotorRun(index: Motors ,speed: number): void {
         if (!initialized) {
             initPCA9685()
         }
-        speed = speed * 16; // map 255 to 4096
+        speed = speed * 4; // map 255 to 4096
         if (speed >= 4096) {
             speed = 4095
         }
@@ -266,11 +265,20 @@ namespace magiSuperDriver {
         }
     }
 
+    //% blockId=robotbit_motor_run block="Motor %index|running with direction %direction| and speed %speed"
+    //% weight=85
+    //% speed.min=0 speed.max=1024
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+    export function MotorRun(index: Motors, direction: Directions, speed: number): void {
+        let signedSpeed = speed * ( direction > 0 ? 1 : -1 );
+        _MotorRun(index, signedSpeed);
+    }
+
 
     //% blockId=robotbit_stop block="Motor Stop %index"
     //% weight=80
     export function MotorStop(index: Motors): void {
-        MotorRun(index, 0);
+        _MotorRun(index, 0);
     }
 
     //% blockId=robotbit_stop_all block="Motor Stop All"

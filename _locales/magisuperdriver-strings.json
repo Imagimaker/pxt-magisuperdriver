@@ -1,7 +1,9 @@
 {
-  "magiSuperDriver.MotorRun|block": "Motor %index|speed %speed",
+  "magiSuperDriver.Directions.Backward|block": "1",
+  "magiSuperDriver.Directions.Forward|block": "0",
+  "magiSuperDriver.MotorRun|block": "Motor %index|running with direction %direction| and speed %speed",
   "magiSuperDriver.MotorStopAll|block": "Motor Stop All",
-  "magiSuperDriver.MotorStop|block": "Motor Stop %index|",
+  "magiSuperDriver.MotorStop|block": "Motor Stop %index",
   "magiSuperDriver.Servo|block": "Servo %index|degree %degree",
   "magiSuperDriver.StepperDegree|block": "Stepper %index|degree %degree",
   "magiSuperDriver.StepperTurn|block": "Stepper %index|turn %turn",
