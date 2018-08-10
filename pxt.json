@@ -8,19 +8,11 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/zh/magisuperdriver-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "enabled": 0
-                }
-            }
-        }
-    },
     "public": true
 }
