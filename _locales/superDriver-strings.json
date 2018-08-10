@@ -1,0 +1,18 @@
+{
+  "superdriver.MotorRun|block": "Motor|%index|speed %speed",
+  "superdriver.MotorStopAll|block": "Motor Stop All",
+  "superdriver.MotorStop|block": "Motor Stop|%index|",
+  "superdriver.Servo|block": "Servo|%index|degree %degree",
+  "superdriver.StepperDegree|block": "Stepper|%index|degree %degree",
+  "superdriver.StepperTurn|block": "Stepper|%index|turn %turn",
+  "superdriver.Turns.T1B0|block": "1",
+  "superdriver.Turns.T1B2|block": "1/2",
+  "superdriver.Turns.T1B4|block": "1/4",
+  "superdriver.Turns.T2B0|block": "2",
+  "superdriver.Turns.T3B0|block": "3",
+  "superdriver.Turns.T4B0|block": "4",
+  "superdriver.Turns.T5B0|block": "5",
+  "superdriver.helloWorld|block": "hello world1120",
+  "superdriver|block": "Superdriver",
+  "{id:category}Superdriver": "Superdriver"
+}
