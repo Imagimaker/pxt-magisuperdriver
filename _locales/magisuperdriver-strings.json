@@ -5,6 +5,8 @@
   "superDriver.Servo|block": "Servo|%index|degree %degree",
   "superDriver.StepperDegree|block": "Stepper|%index|degree %degree",
   "superDriver.StepperTurn|block": "Stepper|%index|turn %turn",
+  "superDriver.Steppers.Step_1|block": "Step 1",
+  "superDriver.Steppers.Step_2|block": "Step 2",
   "superDriver.Turns.T1B0|block": "1",
   "superDriver.Turns.T1B2|block": "1/2",
   "superDriver.Turns.T1B4|block": "1/4",
@@ -12,7 +14,7 @@
   "superDriver.Turns.T3B0|block": "3",
   "superDriver.Turns.T4B0|block": "4",
   "superDriver.Turns.T5B0|block": "5",
-  "superDriver.helloWorld|block": "hello world1120",
+  "superDriver.helloWorldmezh|block": "hello worldmezh",
   "superDriver|block": "SuperDriver",
   "{id:category}SuperDriver": "SuperDriver"
 }

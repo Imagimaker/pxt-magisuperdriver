@@ -1,10 +1,12 @@
 {
   "superDriver.MotorRun|block": "电机|%index|速度 %speed",
   "superDriver.MotorStopAll|block": "停止所有电机",
-  "superDriver.MotorStop|block": "电机 停止|%index|",
+  "superDriver.MotorStop|block": "舵机|%index|角度 %degree",
   "superDriver.Servo|block": "舵机|%index|角度 %degree",
   "superDriver.StepperDegree|block": "步进 28BYJ-48|%index|角度 %degree",
   "superDriver.StepperTurn|block": "步进 28BYJ-48|%index|圈数 %turn",
+  "superDriver.Steppers.Step_1|block": "Step 1",
+  "superDriver.Steppers.Step_2|block": "Step 2",
   "superDriver.Turns.T1B0|block": "1",
   "superDriver.Turns.T1B2|block": "1/2",
   "superDriver.Turns.T1B4|block": "1/4",
@@ -12,7 +14,7 @@
   "superDriver.Turns.T3B0|block": "3",
   "superDriver.Turns.T4B0|block": "4",
   "superDriver.Turns.T5B0|block": "5",
-  "superDriver.helloWorld|block": "你好1120",
+  "superDriver.helloWorldmezh|block": "hello worldmezh",
   "superDriver|block": "超级电机驱动",
   "{id:category}SuperDriver": "SuperDriver"
 }
