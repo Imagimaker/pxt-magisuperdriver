@@ -13,6 +13,6 @@
   "superDriver.Turns.T4B0|block": "4",
   "superDriver.Turns.T5B0|block": "5",
   "superDriver.helloWorld|block": "你好1120",
-  "superDriver|block": "我superDriver",
-  "{id:category}Superdriver": "超级电机驱动"
+  "superDriver|block": "超级电机驱动",
+  "{id:category}SuperDriver": "SuperDriver"
 }
