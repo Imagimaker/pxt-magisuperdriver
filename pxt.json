@@ -1,6 +1,6 @@
 {
     "name": "magisuperdriver",
-    "version": "18.810.14",
+    "version": "18.810.1416",
     "description": "magiSuperDriver package for Micro:bit",
     "license": "MIT",
     "dependencies": {
