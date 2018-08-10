@@ -17,7 +17,7 @@
 namespace superDriver {
 
     //% block
-    export function helloWorl() {
+    export function helloWorldsp() {
 
     }
 
