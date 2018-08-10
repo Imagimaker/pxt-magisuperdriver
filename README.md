@@ -23,6 +23,8 @@
 
 ## Supported targets
 
+* for PXT/microbit
+
 ```package
 superDriver=github:Imagimaker/pxt-magisuperdriver
 ```
