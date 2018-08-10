@@ -1,10 +1,10 @@
 {
-  "magiSuperDriver.MotorRun|block": "电机|%index|速度 %speed",
+  "magiSuperDriver.MotorRun|block": "电机 %index|速度 %speed",
   "magiSuperDriver.MotorStopAll|block": "停止所有电机",
-  "magiSuperDriver.MotorStop|block": "电机 停止|%index|",
-  "magiSuperDriver.Servo|block": "舵机|%index|角度 %degree",
-  "magiSuperDriver.StepperDegree|block": "步进 28BYJ-48|%index|角度 %degree",
-  "magiSuperDriver.StepperTurn|block": "步进 28BYJ-48|%index|圈数 %turn",
+  "magiSuperDriver.MotorStop|block": "停止电机 %index|",
+  "magiSuperDriver.Servo|block": "舵机 %index|转动至角度 %degree",
+  "magiSuperDriver.StepperDegree|block": "步进电机 %index|转动至角度 %degree",
+  "magiSuperDriver.StepperTurn|block": "步进电机 %index|转动圈数 %turn",
   "magiSuperDriver.Steppers.Step_1|block": "Step 1",
   "magiSuperDriver.Steppers.Step_2|block": "Step 2",
   "magiSuperDriver.Turns.T1B0|block": "1",
@@ -14,7 +14,6 @@
   "magiSuperDriver.Turns.T3B0|block": "3",
   "magiSuperDriver.Turns.T4B0|block": "4",
   "magiSuperDriver.Turns.T5B0|block": "5",
-  "magiSuperDriver.helloWorldsp|block": "hello worldsp",
   "magiSuperDriver|block": "超级电机驱动",
   "{id:category}MagiSuperDriver": "MagiSuperDriver"
 }
