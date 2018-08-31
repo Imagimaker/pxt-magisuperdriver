@@ -1,6 +1,6 @@
 {
-  "magiSuperDriver.Directions.Backward|block": "向后",
-  "magiSuperDriver.Directions.Forward|block": "向前",  
+  "magiSuperDriver.Directions.Backward|block": "反转",
+  "magiSuperDriver.Directions.Forward|block": "正转",  
   "magiSuperDriver.MotorRun|block": "电机 %index|,方向 %direction|,速度 %speed",
   "magiSuperDriver.MotorStopAll|block": "停止所有电机",
   "magiSuperDriver.MotorStop|block": "停止电机 %index|",
