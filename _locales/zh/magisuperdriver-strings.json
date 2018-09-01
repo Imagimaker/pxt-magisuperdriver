@@ -5,7 +5,7 @@
   "magiSuperDriver.MotorStopAll|block": "停止所有电机",
   "magiSuperDriver.MotorStop|block": "停止电机 %index|",
   "magiSuperDriver.Servo|block": "舵机 %index|转动至角度 %degree",
-  "magiSuperDriver.StepperDegree|block": "步进电机 %index|转动至角度 %degree",
+  "magiSuperDriver.StepperDegree|block": "步进电机 %index|转动角度 %degree",
   "magiSuperDriver.StepperTurn|block": "步进电机 %index|转动圈数 %turn",
   "magiSuperDriver.Steppers.Step_1|block": "Step1",
   "magiSuperDriver.Steppers.Step_2|block": "Step2",
