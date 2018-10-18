@@ -207,7 +207,7 @@ namespace magiSuperDriver {
      * @param index Servo Channel; eg: S1
      * @param degree [0-180] degree of servo; eg: 0, 90, 180
     */
-    //% blockId=robotbit_servo block="Servo %index|degree %degree"
+    //% blockId=imagimaker_servo block="Servo %index|degree %degree"
     //% weight=100
     //% degree.min=0 degree.max=180
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -221,7 +221,7 @@ namespace magiSuperDriver {
         setPwm(index + 7, 0, value)
     }
     
-    //% blockId=robotbit_stepper_degree block="Stepper %index|degree %degree"
+    //% blockId=imagimaker_stepper_degree block="Stepper %index|degree %degree"
     //% weight=90
     export function StepperDegree(index: Steppers, degree: number): void {
         if (!initialized) {
@@ -234,7 +234,7 @@ namespace magiSuperDriver {
     }
 
 
-    //% blockId=robotbit_stepper_turn block="Stepper %index|turn %turn"
+    //% blockId=imagimaker_stepper_turn block="Stepper %index|turn %turn"
     //% weight=90
     export function StepperTurn(index: Steppers, turn: Turns): void {
         let degree = turn;
@@ -265,7 +265,7 @@ namespace magiSuperDriver {
         }
     }
 
-    //% blockId=robotbit_motor_run block="Motor %index|running with direction %direction| and speed %speed"
+    //% blockId=imagimaker_motor_run block="Motor %index|running with direction %direction| and speed %speed"
     //% weight=85
     //% speed.min=0 speed.max=1024
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -275,13 +275,13 @@ namespace magiSuperDriver {
     }
 
 
-    //% blockId=robotbit_stop block="Motor Stop %index"
+    //% blockId=imagimaker_stop block="Motor Stop %index"
     //% weight=80
     export function MotorStop(index: Motors): void {
         _MotorRun(index, 0);
     }
 
-    //% blockId=robotbit_stop_all block="Motor Stop All"
+    //% blockId=imagimaker_stop_all block="Motor Stop All"
     //% weight=79
     //% blockGap=50
     export function MotorStopAll(): void {
